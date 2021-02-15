@@ -2,20 +2,25 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="StyleGoogle.css">
     </head>
     <body>
-        <div>
-            <img src="googlelogo.png" width="300">
+        <div class="links">
+            <a text-decoration: none; class="ref" href="Images.html">Images</a>
+            <a class="ref" href="advanced.html">Advanced Search</a>
         </div>
-        <div>
-            <a href="https://www.google.com/imghp?hl=en&ogbl"></a>
-            <a href="https://www.google.com/advanced_search"></a>
+        <div class="image">
+            <img class="logo" src="googlelogo.png" >
         </div>
-        <div>
+        <div class="search">
             <form action="https://google.com/search" >
-                <input type="text" name="q">
-                <input type="submit" value="Google Search"> 
-                <input type="submit" name="btnI" value="I'm Feeling Lucky">     
+                <div>
+                    <input class="bar"type="text" name="q">
+                </div> 
+                <div class="submits"> 
+                    <input class="button" type="submit" value="Google Search"> 
+                    <input class="button" type="submit" name="btnI" value="I'm Feeling Lucky"> 
+                </div>      
             </form>
         </div>
     </body>
