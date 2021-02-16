@@ -1,3 +1,6 @@
+body { 
+    margin:0; 
+}
 .image{
     height: 290px;
     display: flex;
@@ -52,4 +55,75 @@
     color:rgb(78, 78, 78) ;
     padding: 8px 18px;
     background-color:rgb(179, 177, 177) solid;
+}
+.panel{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color:rgb(243, 241, 241);
+    box-sizing: content-box
+}
+#linklogo{
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.form{
+    margin: 35px;
+    display: flex;
+}
+#label{
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    margin-right: 35px;
+    color: rgb(217, 48, 37);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    border: rgb(235, 235, 235) solid;
+    border-width: 1px;
+}
+#indent{
+    display: inline-block;
+    width: 518px;
+    height: 20px;
+}
+#left{
+    display: inline-block; 
+    height: 42px;
+    width: 182px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#rigth{
+    font-size: 12px;
+    color: rgb(107, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.leftText{
+    width: 182px;
+    height: 42px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block
+}
+.rigthText{
+    margin-left: 10px;
+    width: 182px;
+    height: 42px;
+    font-size: 10px;
+    color: rgb(87, 86, 86);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.smalltext{
+    color: rgb(87, 86, 86);
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.bars{
+    width: 500px;
+    height: 29px;
+    font-size: 20px;
 }

@@ -2,85 +2,60 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <link rel="stylesheet" href="StyleGoogle.css">
     </head>
     <body>
-        <div>
-            <div>
-                <img src="googlelogo.png" width="100">
-            </div>
-            <div>
-                <a href="https://google.com/search"></a>
-                <a href="https://www.google.com/imghp?hl=en&ogbl"></a>
+        <div class="panel">
+            <div id="linklogo">
+                <a href="index.html"><img src="googlelogo.png"width="92"></a>
             </div>
         </div>
-        <div>
+        <div id="label">
             <label>Advanced Search</label>
         </div>
         <hr>
-        <div>
+        <div class="form">
             <form action="https://google.com/search" >
                 <div>
-                    <span>Find pages with...</span>
-                </div>
-                <div></div>
-                <div>
-                    To do this in the search box.
-                </div>
-                <div>
-                    <label>all these words</label>
-                </div>
-                <div>
-                    <input type="text" name="q">
-                </div>
-                <div>
-                    Type the important words: 
-                    <span>tri-colour rat terrier</span>
+                    <span id="left">Find pages with...</span>
+                    <span id="indent"></span>
+                    <label id="rigth">To do this in the search box.</label>
                 </div>
 
                 <div>
-                    <label>this exact word or phrase:</label>
+                    <label class="leftText">all these words</label>
+                    <input class="bars" type="text" name="q">
+                    <label class="rigthText">Type the important words:</label>
+                    <span class="smalltext">tri-colour rat terrier</span>
                 </div>
                 <div>
-                    <input type="text" name="q">
-                </div>
-                <div>
-                    Put exact words in quotes: 
-                    <span>"rat terrier"</span>
-                </div>
-
-                <div>
-                    <label>any of these words:</label>
-                </div>
-                <div>
-                    <input type="text" name="q">
-                </div>
-                <div>
-                    Type OR between all the words you want: 
-                    <span>miniature OR standard</span>
+                    <label class="leftText">this exact word or phrase:</label>
+                    <input class="bars" type="text" name="q">
+                    <label class="rigthText">Put exact words in quotes: </label>
+                    <span class="smalltext">"rat terrier"</span>
                 </div>
 
                 <div>
-                    <label>none of these words:</label>
-                </div>
-                <div>
-                    <input type="text" name="q">
-                </div>
-                <div>
-                    Put a minus sign just before words that you don't want:
-                    <span>-rodent, -"Jack Russell"</span>
+                    <label class="leftText">any of these words:</label>
+                    <input class="bars" type="text" name="q">
+                    <label class="rigthText">Type OR between all the words you want: </label>
+                    <span class="smalltext">miniature OR standard</span>
                 </div>
 
                 <div>
-                    <label>numbers ranging from:</label>
+                    <label class="leftText">none of these words:</label>
+                    <input class="bars" type="text" name="q">
+                    <label class="rigthText">Put a minus sign just before words that you don't want:</label>
+                    <span class="smalltext">-rodent, -"Jack Russell"</span>
                 </div>
+
                 <div>
-                    <input type="text" name="q">
+                    <label class="leftText">numbers ranging from:</label>
+                    <input class="input" type="text" name="q">
                     to
-                    <input type="text" name="q">
-                </div>
-                <div>
-                    Put two full stops between the numbers and add a unit of measurement: 
-                    <span>10..35 kg, £300..£500, 2010..2011</span>
+                    <input class="input" type="text" name="q">
+                    <label class="rigthText">Put two full stops between the numbers and add a unit of measurement: </label>
+                    <span class="smalltext">10..35 kg, £300..£500, 2010..2011</span>
                 </div>
                 <input type="submit" value="Advanced Search">     
             </form>
